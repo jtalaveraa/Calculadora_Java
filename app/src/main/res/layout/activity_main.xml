@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#D98F8F"
+    android:background="#2196F3"
     tools:context=".lacalculadora">
 
     <TableLayout
@@ -37,7 +37,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:background="#E7DCDC"
+                android:background="@color/colorSecondary"
                 android:backgroundTint="#837A7A"
                 android:text="8"
                 android:textColor="#000000"
@@ -77,10 +77,10 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:background="#E7DCDC"
+                android:backgroundTint="#837A7A"
                 android:text="5"
                 android:textColor="#000000"
-                android:textSize="34sp"
-                android:backgroundTint="#837A7A" />
+                android:textSize="34sp" />
 
             <Button
                 android:id="@+id/button6"
@@ -226,15 +226,15 @@
         </TableRow>
 
     </TableLayout>
-    <!-- PRUEBA -->
+
     <TextView
         android:id="@+id/tvResutado"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="0"
-        android:textColor="#1F1C1C"
-        android:textSize="60sp"
-        tools:layout_editor_absoluteX="43dp"
-        tools:layout_editor_absoluteY="69dp" />
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="0"
+    android:textColor="#1F1C1C"
+    android:textSize="60sp"
+    tools:layout_editor_absoluteX="43dp"
+    tools:layout_editor_absoluteY="69dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
