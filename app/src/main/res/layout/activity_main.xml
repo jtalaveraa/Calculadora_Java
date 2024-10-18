@@ -7,7 +7,6 @@
     android:layout_height="match_parent"
     android:background="#2196F3"
     android:backgroundTint="#004D40"
-    tools:context=".lacalculadora"
     android:padding="20dp">
 
 
@@ -194,7 +193,7 @@
         android:layout_margin="8dp"
         app:layout_constraintBottom_toTopOf="@id/buttonMultiplicar"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_EndOf=""
+        app:layout_constraintStart_toEndOf="@+id/button7"
         app:layout_constraintTop_toBottomOf="@id/buttonSumar"/>
 
 
@@ -267,13 +266,15 @@
         android:textColor="#ffffff"
         android:textSize="60sp"
         tools:layout_editor_absoluteX="43dp"
-        tools:layout_editor_absoluteY="69dp" />
+        tools:layout_editor_absoluteY="69dp" >
+
+    </TextView>
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_end="523dp" />
+        app:layout_constraintGuide_percent="0.25854993" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
