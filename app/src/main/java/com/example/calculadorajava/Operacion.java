@@ -9,6 +9,10 @@ public class Operacion {
         this.num2 = num2;
     }
 
+    public Operacion(double num1) {
+        this.num1 = num1;
+    }
+
     public double calcular() {
         return 0;
     }
