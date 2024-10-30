@@ -39,8 +39,7 @@ public class Israel {
         double resultado = division.calcular();
         assertEquals(2.0, resultado, 0.001);
     }
-
-    @Test
+        @Test
     public void testPotencia() {
         Potencia potencia = new Potencia(2.0, 3.0);
 
